@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(temp.jpg);
+    height: 100vh;
+    /* width: 100vh; */
+    background-size: cover;
+    backface-visibility: visible;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #cb86dc; */
+    background-image: url(temp1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(78, 69, 69, 0.5);
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    color: #333;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#result {
+    background-color: antiquewhite;
+    font-weight:bold;
+}
